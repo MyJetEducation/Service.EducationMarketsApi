@@ -5,31 +5,31 @@ namespace Service.WalletApi.EducationMarketsApi.Settings
 {
     public class SettingsModel
     {
-        [YamlProperty("EducationMarketsApi.SeqServiceUrl")]
+        [YamlProperty("WalletApiEducation.SeqServiceUrl")]
         public string SeqServiceUrl { get; set; }
 
-        [YamlProperty("EducationMarketsApi.ZipkinUrl")]
+        [YamlProperty("WalletApiEducation.ZipkinUrl")]
         public string ZipkinUrl { get; set; }
 
-        [YamlProperty("EducationMarketsApi.ElkLogs")]
+        [YamlProperty("WalletApiEducation.ElkLogs")]
         public LogElkSettings ElkLogs { get; set; }
 
-        [YamlProperty("EducationMarketsApi.EnableApiTrace")]
+        [YamlProperty("WalletApiEducation.EnableApiTrace")]
         public bool EnableApiTrace { get; set; }
 
-        [YamlProperty("EducationMarketsApi.MyNoSqlReaderHostPort")]
+        [YamlProperty("WalletApiEducation.MyNoSqlReaderHostPort")]
         public string MyNoSqlReaderHostPort { get; set; }
 
-        [YamlProperty("EducationMarketsApi.AuthMyNoSqlReaderHostPort")]
+        [YamlProperty("WalletApiEducation.AuthMyNoSqlReaderHostPort")]
         public string AuthMyNoSqlReaderHostPort { get; set; }
 
-        [YamlProperty("EducationMarketsApi.SessionEncryptionKeyId")]
+        [YamlProperty("WalletApiEducation.SessionEncryptionKeyId")]
         public string SessionEncryptionKeyId { get; set; }
 
-        [YamlProperty("EducationMarketsApi.MyNoSqlWriterUrl")]
+        [YamlProperty("WalletApiEducation.MyNoSqlWriterUrl")]
         public string MyNoSqlWriterUrl { get; set; }
 
-		[YamlProperty("EducationMarketsApi.EducationFlowServiceUrl")]
-		public string EducationFlowServiceUrl { get; set; }
+		[YamlProperty("WalletApiEducation.EducationMarketsServiceUrl")]
+		public string EducationMarketsServiceUrl { get; set; }
     }
 }
